@@ -28,8 +28,8 @@
                     </div>
                 </div>
                 {{-- Area Tabel Hasil Pencarian --}}
-                <div class="mt-4">
-                    <table class="table table-dark table-striped d-none" id="resultTable">
+                <div class="mt-4 table-responsive">
+                    <table class="table table-dark table-striped d-none " id="resultTable">
                         <thead>
                             <tr>
                                 <th>Tanggal Submit</th>
@@ -63,7 +63,7 @@
                             </li>
                             <li>
                                 <strong>Submitted:</strong> Naskah sudah berhasil disubmit ke jurnal tujuan dan akan
-                                dilakukan follow up secara berkala 1x/bulan
+                                dilakukan follow up secara berkala 3x/minggu
                             </li>
                             <li>
                                 <strong>In review:</strong> Naskah sedang dalam review oleh tim reviewer jurnal
@@ -95,7 +95,7 @@
                                 tidak kunjung membalas email follow up atau alasan lain (silahkan kontak admin)
                             </li>
                             <li>
-                                <strong>Stop:</strong> Naskah telah dihentikan layanan asistensinya di Klinik Jurnal
+                                <strong>Stop:</strong> Naskah telah dihentikan layanan asistensinya di Ravi Institute
                             </li>
                             <li>
                                 <strong>Hold:</strong> Naskah sedang dalam proses pemantauan intens oleh tim terkait

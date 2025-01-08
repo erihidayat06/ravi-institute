@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('id_jurnal', 15);
             $table->date('tanggal');
             $table->string('nm_jurnal');
+            $table->string('nm_artikel');
             $table->string('status');
             $table->timestamps();
         });

@@ -35,6 +35,7 @@
                                 <th>Tanggal Submit</th>
                                 <th>ID Jurnal</th>
                                 <th>Nama Jurnal</th>
+                                <th>Nama Artikel</th>
                                 <th>Status</th>
                                 <th>Tanggal Update Setatus</th>
                             </tr>
@@ -152,6 +153,7 @@
                             <td>${new Date(jurnal.tanggal).toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' })}</td>
                             <td>${jurnal.id_jurnal}</td>
                             <td>${jurnal.nm_jurnal}</td>
+                            <td>${jurnal.nm_artikel}</td>
                             <td>${jurnal.status}</td>
                             <td>${new Date(jurnal.updated_at).toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' })}</td>
                         </tr>

@@ -30,6 +30,17 @@
                     </div>
                 @enderror
 
+                {{-- Input Nama artikel --}}
+                <label for="nm_artikel" class="form-label mt-3">Nama artikel</label>
+                <input type="text" id="nm_artikel" name="nm_artikel"
+                    class="form-control @error('nm_artikel') is-invalid @enderror"
+                    value="{{ old('nm_artikel', $jurnal->nm_artikel) }}">
+                @error('nm_artikel')
+                    <div class="invalid-feedback">
+                        {{ $message }}
+                    </div>
+                @enderror
+
                 {{-- Input Status --}}
                 <label for="status" class="form-label mt-3">Status</label>
                 <select id="status" name="status" class="form-control @error('status') is-invalid @enderror">

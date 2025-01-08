@@ -31,6 +31,8 @@
                                     </th>
                                     <th>ID Jurnal</th>
                                     <th>Tanggal upload</th>
+                                    <th>Nama Jurnal</th>
+                                    <th>Nama Artikel</th>
                                     <th>Status</th>
                                     <th>Aksi</th>
                                 </tr>
@@ -43,7 +45,9 @@
                                     <tr>
                                         <td>{{ $i++ }} </td>
                                         <td>{{ $jurnal->id_jurnal }}</td>
+                                        <td>{{ $jurnal->tanggal }}</td>
                                         <td>{{ $jurnal->nm_jurnal }}</td>
+                                        <td>{{ $jurnal->nm_artikel }}</td>
                                         <td>
                                             <!-- Button trigger modal -->
                                             <a href="" data-bs-toggle="modal" data-bs-target="#statusModal">
@@ -56,16 +60,20 @@
                                         </td>
 
                                         <td>
-                                            <a href="/admin/jurnal/{{ $jurnal->id }}/edit"
-                                                class="btn-sm btn btn-success">Edit</a>
+                                            <div class="d-flex justify-content-center">
 
-                                            <form action="/admin/jurnal/{{ $jurnal->id }}" method="POST"
-                                                class="d-inline">
-                                                @csrf
-                                                @method('DELETE')
-                                                <button type="submit" class="btn-sm btn btn-danger"
-                                                    onclick="return confirm('Apakah Anda yakin ingin menghapus jurnal ini?')">Delete</button>
-                                            </form>
+                                                </justify-content-center>
+                                                <a href="/admin/jurnal/{{ $jurnal->id }}/edit"
+                                                    class="btn-sm btn btn-success">Edit</a>
+
+                                                <form action="/admin/jurnal/{{ $jurnal->id }}" method="POST"
+                                                    class="d-inline ms-2">
+                                                    @csrf
+                                                    @method('DELETE')
+                                                    <button type="submit" class="btn-sm btn btn-danger"
+                                                        onclick="return confirm('Apakah Anda yakin ingin menghapus jurnal ini?')">Delete</button>
+                                                </form>
+                                            </div>
                                         </td>
 
                                     </tr>

@@ -16,8 +16,8 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\User::factory()->create([
             'name' => 'admin',
-            'email' => 'adminraviinstitute@gmail.com',
-            'password' => Hash::make('Adminraviinstitute1234'), // Ganti 'your_password_here' dengan password yang diinginkan
+            'email' => 'info@raviinstitute.com',
+            'password' => Hash::make('Rav!#$2023$#'), // Ganti 'your_password_here' dengan password yang diinginkan
         ]);
     }
 }

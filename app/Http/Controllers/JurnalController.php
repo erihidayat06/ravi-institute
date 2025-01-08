@@ -32,6 +32,7 @@ class JurnalController extends Controller
         $validateData = $request->validate([
             'tanggal' => 'required|date',
             'nm_jurnal' => 'required|min:3',
+            'nm_artikel' => 'required|min:3',
             'status' => 'required'
         ]);
 
@@ -114,6 +115,7 @@ class JurnalController extends Controller
         $validateData = $request->validate([
             'tanggal' => 'required|date',
             'nm_jurnal' => 'required|min:3',
+            'nm_artikel' => 'required|min:3',
             'status' => 'required',
         ]);
 

@@ -2,7 +2,7 @@
 
 ## 📺 Demo Website:
 
-Kamu bisa melihat demo website pada link berikut: [Ravi Institute]()
+Kamu bisa melihat demo website pada link berikut: [Ravi Institute](http://status.raviinstitute.com/)
 
 ## 📚 Stack yang digunakan:
 

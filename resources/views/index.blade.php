@@ -6,8 +6,7 @@
             <div class="text-center text-white">
                 <div class="p-5">
                     <h1 class="display-6 fw-bold">Pengecekan Status Naskah</h1>
-                    <p class="lead">Anda dapat memantau perkembangan status publikasi Anda dengan memasukkan ID Pengguna
-                        yang telah diberikan. Sistem pelacakan ini juga menyediakan informasi update secara real-time untuk
+                    <p class="lead">Silahkan Anda masukkan ID Pengguna yang telah diberikan. Sistem pelacakan ini juga menyediakan informasi update secara real-time untuk
                         memastikan transparansi dan kemudahan akses.
                     </p>
 
